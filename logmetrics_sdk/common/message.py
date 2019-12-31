@@ -1,4 +1,5 @@
 message: dict = {
+    'TrackingID': str,
     'MessageType': str,
     'Duration': int,
     'Host': str,
@@ -13,7 +14,7 @@ message: dict = {
     'StartDateTime': str,
     'EndDateTime': str,
     'Aspects': str,
-    'Query': str,
+    'QueryParams': str,
     'Path': str,
     'RequestBody': str,
     'ResponseBody': str,
@@ -29,9 +30,7 @@ message: dict = {
 
 
 def clear_message():
-    """
-
-    """
+    message['TrackingID'] = None
     message['MessageType'] = "LOGMETRICS_MESSAGE"
     message['Duration'] = 0
     message['Host'] = None
@@ -45,7 +44,8 @@ def clear_message():
     message['ServiceVersion'] = None
     message['StartDateTime'] = None
     message['EndDateTime'] = None
-    message['Query'] = None
+    message['Aspects'] = None
+    message['QueryParams'] = None
     message['Path'] = None
     message['RequestBody'] = None
     message['ResponseBody'] = None
