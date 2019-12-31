@@ -34,7 +34,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="LogMetrics provides simplified configuration to log payload for python projects",
     entry_points={
         'console_scripts': [
             'logmetrics_sdk=logmetrics_sdk.cli:main',
@@ -44,13 +44,13 @@ setup(
     license="Apache Software License 2.0",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='logmetrics_sdk',
-    name='logmetrics_sdk',
+    keywords='logmetrics-sdk',
+    name='logmetrics-sdk',
     packages=find_packages(include=['logmetrics_sdk', 'logmetrics_sdk.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/devxchangeio/logmetrics-python',
-    version='0.0.1',
+    version='1.0.0',
     zip_safe=False,
 )
