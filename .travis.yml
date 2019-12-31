@@ -27,7 +27,7 @@ jobs:
         password:
           secure: $PYPI_PASS
         on:
-          tags: true
+          tags: false
           branch: master
           repo: devxchangeio/logmetrics-python
         skip_existing: true
