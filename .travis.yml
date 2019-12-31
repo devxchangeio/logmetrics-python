@@ -1,0 +1,33 @@
+language: python
+dist: xenial
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "pypy"
+  - "pypy3"
+install:
+  - pip install -r requirements.txt
+  - pip install pypandoc
+
+script:
+  - python -m pytest -v
+
+# The default job (above) is the test job, the package build job is specified below
+jobs:
+  include:
+    - stage: build
+      python: "3.7"
+      script: echo "Starting Pypi build"
+      deploy:
+        provider: pypi
+        user: $PYPI_USER
+        password:
+          secure: $PYPI_PASS
+        on:
+          tags: true
+          branch: master
+          repo: devxchangeio/logmetrics-python
+        skip_existing: true
