@@ -6,7 +6,6 @@ image::https://readthedocs.org/projects/logmetrics-python/badge/?version=latest[
 
 LogMetrics framework provides simplified configuration to log payload for python project.
 
-
 ### logmetrics json schema
 
 ```
