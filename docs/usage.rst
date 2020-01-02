@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use logmetrics_python in a project::
+To use logmetrics_sdk in a project::
 
-    import logmetrics_python
+    import logmetrics_sdk
