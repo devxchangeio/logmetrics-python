@@ -1,4 +1,6 @@
-image:https://travis-ci.com/devxchangeio/logmetrics-python.svg?branch=master["Build Status", link="https://travis-ci.com/devxchangeio/logmetrics-python"]
+image:://img.shields.io/pypi/v/logmetrics_sdk.svg[link="https://pypi.python.org/pypi/logmetrics_sdk"]
+image:://travis-ci.com/devxchangeio/logmetrics-python.svg?branch=master[link="https://travis-ci.com/devxchangeio/logmetrics-python"]
+image:://readthedocs.org/projects/logmetrics-python/badge/?version=latest[link="https://logmetrics.readthedocs.io/en/latest/?badge=latest"]
 
 ## logmetrics-python
 
@@ -16,7 +18,7 @@ LogMetrics framework provides simplified configuration to log payload for python
       "type": "string",
       "description": "Application Host IP Address"
     },
-    "message_type": {
+    "MessageType": {
       "type": "string",
       "description": "Logmetrics message type",
       "value": "LOGMETRICS_MESSAGE"
@@ -67,7 +69,7 @@ LogMetrics framework provides simplified configuration to log payload for python
 ```
 {
   "Node": "127.0.0.1",
-  "message_type": "LOGMETRICS_MESSAGE",
+  "MessageType": "LOGMETRICS_MESSAGE",
   "Duration": 106,
   "Host": "hostname",
   "Fault": false,
@@ -80,20 +82,20 @@ LogMetrics framework provides simplified configuration to log payload for python
 }
 ```
 
-### Demo Project 
+### Demo Project
 
-https://github.com/devxchange-blog/logmetrics-demo.git[logmetrics-demo]
+https://github.com/devxchange-blog/logmetrics-python-demo.git[logmetrics-python-demo]
 
 ## Release History
 
-** 0.0.1
+** 1.0.3
     * logging rest verb & payload to console.
     * feature to enable/disable payload logging
 
 ## Meta
 Karthikeyan Sadayamuthu – https://www.linkedin.com/in/ksadayamuthu/[LinkedIn]
 
-Distributed under the Apache License. See ``LICENSE`` for more information. https://github.com/devxchange/logmetrics-java/blob/master/LICENSE[license]
+Distributed under the Apache License. See ``LICENSE`` for more information. https://github.com/devxchange/logmetrics-python-demo/blob/master/LICENSE[license]
 
 ## Contributing
 
