@@ -1,6 +1,6 @@
-image:://img.shields.io/pypi/v/logmetrics_sdk.svg[link="https://pypi.python.org/pypi/logmetrics_sdk"]
-image:://travis-ci.com/devxchangeio/logmetrics-python.svg?branch=master[link="https://travis-ci.com/devxchangeio/logmetrics-python"]
-image:://readthedocs.org/projects/logmetrics-python/badge/?version=latest[link="https://logmetrics.readthedocs.io/en/latest/?badge=latest"]
+image::https://img.shields.io/pypi/v/logmetrics_sdk.svg[link="https://pypi.python.org/pypi/logmetrics_sdk"]
+image::https://travis-ci.com/devxchangeio/logmetrics-python.svg?branch=master[link="https://travis-ci.com/devxchangeio/logmetrics-python"]
+image::https://readthedocs.org/projects/logmetrics-python/badge/?version=latest[link="https://logmetrics.readthedocs.io/en/latest/?badge=latest"]
 
 ## logmetrics-python
 
